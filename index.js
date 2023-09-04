@@ -12,7 +12,7 @@ console.log("monTableau1: ", monTableau1);
 const cb = (e) => {
   return e + e;
 };
-// const monTableau2 = monTableau1.map(cb);
+const monTableau2 = monTableau1.map(cb);
 console.log("monTableau2: ",monTableau2);
 
 
