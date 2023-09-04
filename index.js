@@ -13,7 +13,6 @@ const cb = (e) => {
   return e + e;
 };
 const monTableau2 = monTableau1.map(cb);
-//commenter la ligne suivante
 console.log("monTableau2: ",monTableau2);
 
 
